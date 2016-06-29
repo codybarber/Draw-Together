@@ -4,9 +4,10 @@
   "description": "socket io app for collaborative drawing",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "rrgn",
+  "author": "Cody Barber",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",

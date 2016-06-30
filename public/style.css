@@ -1,12 +1,11 @@
 body {
-  background-image: url(confectionary.png);
+  background-image: url(/confectionary.png);
 }
 
 .canvas {
-/*background-color: red;*/
-border: 3px solid black;
-position: relative;
-margin-top: 25px;
+  border: 3px solid black;
+  position: relative;
+  margin-top: 25px;
 }
 
 .colors>div {
@@ -19,6 +18,14 @@ margin-top: 25px;
   width: 10%;
   height: 20px;
   display: inline-block;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.board {
+  text-align: center;
 }
 
 .reset {
@@ -63,7 +70,7 @@ button:hover {
 
 button:active {
   opacity: .8;
-  box-shadow: 2.6px 2.6px 2.6px 2.6px black;
+  box-shadow: 2px 2px 2px 2px black;
 }
 
 button:focus {

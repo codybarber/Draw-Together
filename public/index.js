@@ -106,7 +106,6 @@ $(function(){
   });
 
   socket.on('draw', function(msg) {
-    console.log('client side', msg);
     ctx.strokeStyle = msg.color;
     ctx.lineJoin = 'round';
     ctx.lineWidth = msg.size;

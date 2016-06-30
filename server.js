@@ -7,9 +7,7 @@ var io = require('socket.io')(http);
 app.use(express.static('public'));
 
 io.on('connection', function(socket) {
-  console.log('a user connected');
   socket.on('draw',function(msg) {
-    console.log(msg);
     socket.broadcast.emit('draw', {
       point1:
       {

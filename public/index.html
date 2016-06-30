@@ -1,10 +1,11 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Draw Together</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+<head>
+  <title>Draw Together</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="buttons">
     <div class="colors">
       <button class="red"></button>
       <button class="yellow"></button>
@@ -12,7 +13,6 @@
       <button class="black"></button>
       <button class="white"></button>
     </div>
-
     <div class="pixels">
       <button class="two-px">2px</button>
       <button class="five-px">5px</button>
@@ -20,14 +20,13 @@
       <button class="eleven-px">11px</button>
       <button class="fifteen-px">15px</button>
     </div>
-
     <button class="reset">RESET</button>
-
-    <div>
-      <canvas id="canvas" class="canvas" width="500" height="500"></canvas>
-    </div>
+  </div>
+  <div class="board">
+    <canvas id="canvas" class="canvas" width="500" height="500"></canvas>
+  </div>
   <script src="jquery.js"></script>
   <script src="/socket.io/socket.io.js"></script>
   <script src="index.js"></script>
-  </body>
+</body>
 </html>

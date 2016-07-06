@@ -14,7 +14,7 @@ A collaborative drawing app that allows users on different devices to draw on th
 
 ##Project Screenshots
 
-Draw Together's interace
+Draw Together's interface
 
 ![Draw Together](drawtogether.png)
 
